@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    /* align-items: center; */
+    justify-content: center;
+}
+h1{
+    background-color: #081b31;
+    color: #fff;
+    height: 100px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    line-height: 100px;  /*upar se centre me laane ke liye*/
+}
+.choice{
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.choice:hover{
+    /* opacity: 0.5; */
+    background-color:#00070e;
+}
+img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 150px;
+    gap: 50px;
+    line-height: 150px;
+    margin-top: 50px;
+}
+.score-board{
+    display: flex;
+    /* background-color: bisque; */
+    font-size: 25px;
+    margin-top: 30px;
+    gap: 50px
+    ;
+}
+#user-score,#comp-score{
+    font-size: 50px;
+}
+.msj-container{
+    margin-top: 40px;
+}
+#msj{
+    background-color: black;
+    color: #fff;
+    font-size: 20px;
+    display: inline;
+    padding: 15px;
+    border-radius: 15px;
+}
